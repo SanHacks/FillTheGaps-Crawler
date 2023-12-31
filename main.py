@@ -67,7 +67,7 @@ for subject in subjects_list:
         kinds = Line
         curriculums = Line
         terms = Line
-        years = Line
+        years = 2023 #TODO:: REmove
        
         pipe = dbUnlock()
         cursor = pipe.cursor()
